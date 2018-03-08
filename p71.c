@@ -13,8 +13,8 @@ for (i = 1; i <= len; i++)
 	flag = flag + 1;
  }
   if (flag == len)
-      printf ("It is palindrome");
+      printf ("Yes,It is palindrome");
   else
-    printf ("It is not palindrome");
+    printf (" No,It is not palindrome");
   return 0;
 }
